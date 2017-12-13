@@ -3,9 +3,7 @@ ROS,PCL,OpenCV
 
 ## Description
 Point cloud compression module usded for Autoware:
-
 https://github.com/CPFL/Autoware/tree/master/ros/src/sensing/drivers/lidar/packages/velodyne
-
 The compression/decompression are real-time and almost lossless(intensity are lossless while x,y,z may have a small error/bias which less than 1 cm)
 
 ## Purpose

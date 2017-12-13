@@ -2,16 +2,16 @@
 ROS,PCL,OpenCV
 
 ## Description
-Point cloud compression module usded for Autoware:
-https://github.com/CPFL/Autoware/tree/master/ros/src/sensing/drivers/lidar/packages/velodyne
+Point cloud compression module usded for Autoware:  
+https://github.com/CPFL/Autoware/tree/master/ros/src/sensing/drivers/lidar/packages/velodyne   
 The compression/decompression are real-time and almost lossless(intensity are lossless while x,y,z may have a small error/bias which less than 1 cm)
 
 ## Purpose
-Compressing/decompressing the data in /velodyne_packets topic(which is the raw data of velodyne Lidar sensor and can be converted into point cloud after calibration)
+Compressing/decompressing the data in /velodyne_packets topic(which is the raw data of velodyne Lidar sensor and can be converted into point cloud after calibration)   
 Support data from HDL64E,HDL64ES2,HDL64ES3,HDL32E and VLP_16 sensor.
 
 ## Theory
-https://www.researchgate.net/publication/312248026_Compressing_continuous_point_cloud_data_using_image_compression_methods
+https://www.researchgate.net/publication/312248026_Compressing_continuous_point_cloud_data_using_image_compression_methods   
 Not 100% same, but similar idea.
 
 ## Steps to Test or Reproduce
